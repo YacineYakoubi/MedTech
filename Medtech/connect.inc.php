@@ -1,4 +1,4 @@
 ﻿<?php
-$connexion=@mysql_connect("localhost","root","");
-mysql_select_db("projet");
+$connexion=@mysql_connect("eu-cdbr-azure-west-d.cloudapp.net","bef2490729ef76","ada45fa4");
+mysql_select_db("medtechdatabase");
 ?>
