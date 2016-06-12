@@ -2,10 +2,10 @@
 class connection {
 
 	protected $connection_db_link;
-	public $servername ="localhost";
-	public $username = "root";
-	public $password = "";
-	public $db = "projet";
+	public $servername ="eu-cdbr-azure-west-d.cloudapp.net";
+	public $username = "bef2490729ef76";
+	public $password = "ada45fa4";
+	public $db = "medtechdatabase";
 
 	function db_connection_fun(){
 
