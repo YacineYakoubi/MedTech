@@ -1,5 +1,5 @@
 <?php
-require_once("connect.inc.php");
+require_once("../../connect.inc.php");
 session_start();
 $requete5="SELECT * FROM praticien WHERE MailP ='".$_SESSION['username']."' ";
 $resultat5=mysql_query($requete5);
